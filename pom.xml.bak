@@ -118,12 +118,12 @@
 
 	<distributionManagement>
         <repository>
-            <id>test-repo</id>
-            <url>http://43.204.218.9:8081/repository/test-repo</url>
+            <id>maven-releases</id>
+            <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>https://nexus.proclouds.co.in/repository/maven-snapshots/</url>
+            <id>nexus-snapshots</id>
+            <url>http://localhost:8081/repository/nexus-maven-repo/</url>
         </snapshotRepository>
     </distributionManagement>
 
